@@ -23,6 +23,9 @@ a{
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    width: 100%;
+}
 body{
     font-size: 15px;
     color: black;
@@ -118,5 +121,103 @@ body{
 }
 .info{
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+}
+.main{
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+}
+.section--home{
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+}
+.home--infoContain{
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.home--tittle{
+    text-transform: uppercase;
+    font-weight: 300;
+    color: $Black;
+    font-size: 2rem;
+}
+.home--info{
+    color: $VeryDarkGray;
+    font-weight: 600;
+    line-height: 1.3rem;
+}
+.creations--tittle{
+    text-transform: uppercase;
+    font-weight: 300;
+    color: $Black;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.section--creations{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    grid-auto-rows: 115px;
+    justify-content: center;
+}
+.creations--contains{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: $White;
+}
+.contains--tittle{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.deep{
+    background-image: url("../images/mobile/image-deep-earth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.arcade{
+    background-image: url("../images/mobile/image-night-arcade.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.soccer{
+    background-image: url("../images/mobile/image-soccer-team.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid{
+    background-image: url("../images/mobile/image-grid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboveVr{
+    background-image: url("../images/mobile/image-from-above.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pocket{
+    background-image: url("../images/mobile/image-pocket-borealis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.curiosity{
+    background-image: url("../images/mobile/image-curiosity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fisheye{
+    background-image: url("../images/mobile/image-fisheye.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
