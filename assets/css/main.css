@@ -61,6 +61,10 @@ body {
   margin-bottom: 2rem;
 }
 
+.nav--logo {
+  width: 9rem;
+}
+
 .fa-xmark {
   font-size: 2rem;
   color: hsl(0deg, 0%, 100%);
