@@ -8,10 +8,6 @@ $DarkGray: hsl(0, 0%, 55%);
 $VeryDarkGray: hsl(0, 0%, 41%);
 
 
-@mixin tipoDeLetra {
-    font-family: 'Alata', sans-serif;
-
-}
 li{
     list-style: none;
 }
@@ -223,4 +219,50 @@ body{
     background-image: url("../images/mobile/image-fisheye.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+.btn--seeAll{
+    text-align: center;
+    text-transform: uppercase;
+    color: hsl(0deg, 0%, 0%);
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    font-family: "Alata", sans-serif;
+    display: inline;
+    border: 1px solid black;
+    width: 120px;
+    line-height: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+.footer{
+    padding: 2rem 1.5rem;
+    text-align: center;
+    background-color: $Black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+    color: $White;
+    align-items: center;
+    margin-top: 3rem;
+    font-family: "Alata", sans-serif;
+}
+.footer--logo{
+    width: 9rem;
+}
+.footer--list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    margin-bottom: 1rem;
+}
+.footer--redes{
+    display: flex;
+    column-gap: .8rem;
+}
+.img--redes{
+    width: 1.5rem;
+}
+.copy{
+    color: $VeryDarkGray;
+    font-size: .8rem;
 }
