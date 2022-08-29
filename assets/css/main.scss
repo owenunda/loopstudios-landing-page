@@ -266,3 +266,9 @@ body{
     color: $VeryDarkGray;
     font-size: .8rem;
 }
+@media screen and (min-width: 680px) {
+    .header{
+        background-image: url("../images/desktop/image-hero.jpg");
+    }
+    
+}

@@ -300,4 +300,10 @@ body {
 .copy {
   color: hsl(0deg, 0%, 41%);
   font-size: 0.8rem;
+}
+
+@media screen and (min-width: 680px) {
+  .header {
+    background-image: url("../images/desktop/image-hero.jpg");
+  }
 }/*# sourceMappingURL=main.css.map */
