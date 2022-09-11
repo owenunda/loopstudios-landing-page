@@ -331,7 +331,7 @@ body{
         margin-bottom: 5rem;
             .home--infoContain{
                 background-color: white;
-                width: 50%;
+                width: 55%;
                 position: absolute;
                 right:  0;
                 bottom: 0;
@@ -341,7 +341,7 @@ body{
             }    
     }
     .creations-content{
-        grid-template-columns: repeat(4, 200px);
+        grid-template-columns: repeat(4, 1fr);
         gap: 1.5rem;
         grid-auto-rows: 350px;
     }
